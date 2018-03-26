@@ -14,3 +14,7 @@ DVCS nghĩa là hệ thống giúp mỗi máy tính có thể lưu trữ nhiều
 - Có thể giúp quy trình làm việc code theo nhóm đơn giản hơn rất nhiều bằng việc kết hợp các phân nhánh (branch).
 - Có thể làm việc ở bất cứ đâu vì chỉ cần clone mã nguồn từ kho chứa hoặc clone một phiên bản thay đổi nào đó từ kho chứa, hoặc một nhánh nào đó từ kho chứa.
 - Dễ dàng trong việc deployment sản phẩm.
+
+## Nguồn
+
+https://thachpham.com/tools/git-git-va-github-la-gi-tai-sao-nen-dung.html#ftoc-heading-1
