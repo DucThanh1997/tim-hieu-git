@@ -74,3 +74,26 @@ git clone [repo link]
 > Mỗi khi tạo 1 Repo trên Linux sẽ nhận được 1 Repo link riêng
 
 ![](../images/git-clone-1.png)
+
+__Commit và update Remote Repo__
+```shell
+lacoski@lacoski-PC:~/GitRepo/tim-hieu-git$ git add .
+
+lacoski@lacoski-PC:~/GitRepo/tim-hieu-git$ git commit -m "init repo"
+[master 9ec710b] update
+ 3 files changed, 8 insertions(+)
+ create mode 100644 docs/git-remote-repo-origin.md
+ create mode 100644 images/git-clone-1.png
+
+lacoski@lacoski-PC:~/GitRepo/tim-hieu-git$ git push origin master
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 19.70 KiB | 0 bytes/s, done.
+Total 7 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/lacoski/tim-hieu-git.git
+   dd95116..9ec710b  master -> master
+
+```
+> Xem thêm các docs sau để biết thêm chi tiết
