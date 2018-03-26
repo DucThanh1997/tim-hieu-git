@@ -6,6 +6,4 @@
 ### [3. Git commit và staging area](docs/git-commit-stagingarea.md)
 ### [4. Git log và undo](docs/git-log-undo.md)
 ### [5. Thao tác nâng cao trên Remote Repo và Origin](docs/git-remote-repo-origin.md)
-## Nguồn
-
-https://thachpham.com/tools/cach-tao-repository-cho-git.html
+### [6. Git branch và làm việc với nhánh](docs/git-branch.md)
