@@ -133,3 +133,7 @@ lacoski@lacoski-PC:~/GitTest/example$ git status
 On branch master
 nothing to commit, working directory clean
 ```
+
+## Nguồn
+
+https://thachpham.com/tools/git-git-log-va-undo-commit.html
