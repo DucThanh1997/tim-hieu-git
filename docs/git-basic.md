@@ -66,3 +66,11 @@ Initialized empty Git repository in /home/lacoski/git_example/.git/
 > Sử dụng Github làm repo remote, truy cập chia sẻ từ xa
 
 > Cách tạo tự tìm hiểu theo giao diện Git cung cấp
+
+__Để clone repo từ xa__
+```
+git clone [repo link]
+```
+> Mỗi khi tạo 1 Repo trên Linux sẽ nhận được 1 Repo link riêng
+
+![](../images/git-clone-1.png)
