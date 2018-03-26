@@ -66,7 +66,7 @@ Gộp dữ liệu trên Repo
 git merge [tên remote]/[nhánh]
 ```
 
-## Sự khác nhau giữa clone, fetch và pull__
+## Sự khác nhau giữa clone, fetch và pull
 3 lệnh để lấy dữ liệu về từ repository nhưng có sự khác nhau:
 
 __git clone__
