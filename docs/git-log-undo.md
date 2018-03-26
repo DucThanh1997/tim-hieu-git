@@ -48,6 +48,31 @@ index 0000000..e69de29
 ```
 
 ## Các thủ thuật
+__Thiết lập log dễ nhìn hơn__
+```shell
+lacoski@lacoski-PC:~$ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+```
+
+__Kết quả__
+
+```shell
+lacoski@lacoski-PC:~/GitRepo/tim-hieu-git$ git lg
+* 28b545d - (HEAD -> master, origin/master) git thao tac repo (33 minutes ago) <thanh1996>
+* 7bf0545 - git thao tac repo (35 minutes ago) <thanh1996>
+* 881c0ce - update (66 minutes ago) <thanh1996>
+* 9ec710b - update (68 minutes ago) <thanh1996>
+* dd95116 - docs (3 hours ago) <thanh1996>
+* 4b2a004 - update (3 hours ago) <thanh1996>
+* ba6963f - update (3 hours ago) <thanh1996>
+* c460a31 - git commit staging area (3 hours ago) <thanh1996>
+* 31be675 - git basic (4 hours ago) <thanh1996>
+* dd0777c - update (4 hours ago) <thanh1996>
+* c84b70c - update (4 hours ago) <thanh1996>
+* c548b2f - update docs (4 hours ago) <thanh1996>
+* 0de781f - git overview (4 hours ago) <thanh1996>
+* 185f4a0 - init repo (5 hours ago) <thanh1996>
+```
+
 (Tìm hiểu thêm)
 
 ## Undo Commit
