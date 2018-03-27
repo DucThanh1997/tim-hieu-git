@@ -43,3 +43,6 @@ Thao tác này sẽ đưa toàn bộ những commit mới tạo ở nhánh `feat
 ![](../images/git-merger-base-3.png)
 
 Lợi ích chính của việc rebase là có lịch sử commit rõ ràng, dễ theo dõi hơn. Đầu tiên, nó sẽ giúp loại bỏ những commit không cần thiết như khi sử dụng git merge. `rebase` giúp tạo ra lịch sử commit có dạng tuyến tính, xuyên suốt project từ khi bắt đầu cho đến hiện tại. Khi đó chúng ta sẽ dễ dàng điều hướng, kiểm tra lịch sử project với những câu lệnh như git log, git bisect.
+
+## Nguồn
+https://viblo.asia/p/git-merging-vs-rebasing-3P0lPvoGKox
