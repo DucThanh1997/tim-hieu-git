@@ -15,7 +15,7 @@ Git bổ sung thêm một lựa chọn:
 
 Khi `commit` tập tin thì tập tin đó phải nằm trong Staging Area. Một tập tin khi nằm trong Staging Area sẽ có trạng thái là Stagged (xem thêm ở dưới).
 
-pic 1
+![](../images/git-commit-stagingarea-1.png)
 
 Để đưa file vào Staging Area, sử dụng lệnh:
 ```
@@ -45,9 +45,10 @@ __Git có hai loại trạng thái chính:__
 
 - Untracked – Là tập tin không muốn làm việc với nó trong Git.
 
-pic 2
+![](../images/git-commit-stagingarea-2.png)
 
 __Untracked__
+
 Xuất hiện khi tạo mới hoặc thêm vào một tập tin mới vào trong thư mục repo đang làm việc. Nó sẽ ở trạng thái Untracked.
 
 VD:
@@ -82,6 +83,7 @@ Changes to be committed:
 ```
 
 __Tracked__
+
 Tập tin đã được đưa về Tracked thì nó sẽ có thêm 3 trạng thái:
 - Modified
 - Unmodified
